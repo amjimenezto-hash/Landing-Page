@@ -1,5 +1,7 @@
 import type { Service, Project, Testimonial, NavLink, Stat, Social } from './types'
 import { Code2, Layers, Zap, Globe, Twitter, Github, Linkedin, Mail } from 'lucide-react'
+import talentoImg from '@/assets/talento.jpg'
+import culturaImg from '@/assets/cultura.jpg'
 
 export const navLinks: NavLink[] = [
   { label: 'Inicio',    href: '#inicio' },
@@ -20,6 +22,7 @@ export const services: Service[] = [
   {
     icon: Code2,
     title: 'Gestión del Talento',
+    image: talentoImg,
     description:
       'Diseño e implementación de estrategias para identificar y potenciar el talento dentro de las organizaciones.',
     tags: ['Estrategia', 'Liderazgo', 'Desarrollo'],
@@ -27,6 +30,7 @@ export const services: Service[] = [
   {
     icon: Layers,
     title: 'Cultura Organizacional',
+    image: culturaImg,
     description:
       'Fortalecimiento de los valores corporativos y creación de ambientes de trabajo que fomentan el bienestar y la productividad.',
     tags: ['Cultura', 'Engagement', 'Valores'],

@@ -34,6 +34,12 @@ export default function Services() {
               viewport={viewportConfig}
               whileHover={{ background: 'rgba(78,229,111,0.04)' }}
             >
+              {service.image && (
+                <div className={styles.cardImage}>
+                  <img src={service.image} alt={service.title} />
+                </div>
+              )}
+
               <div className={styles.iconBox}>
                 <service.icon size={22} color="var(--color-neon)" />
               </div>
