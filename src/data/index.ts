@@ -3,6 +3,7 @@ import { Code2, Layers, Zap, Globe, Twitter, Github, Linkedin, Mail } from 'luci
 import talentoImg from '@/assets/talento.jpg'
 import culturaImg from '@/assets/cultura.jpg'
 import ideasImg from '@/assets/ideas.jpg'
+import consultoriaImg from '@/assets/consultoria.jpg'
 
 export const navLinks: NavLink[] = [
   { label: 'Inicio',    href: '#inicio' },
@@ -47,6 +48,7 @@ export const services: Service[] = [
   {
     icon: Globe,
     title: 'Consultoría Estratégica',
+    image: consultoriaImg,
     description:
       'Asesoría técnica y humana para fortalecer el tejido organizacional y asegurar un crecimiento sostenible.',
     tags: ['Consultoría', 'Sostenibilidad', 'Bienestar'],
