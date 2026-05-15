@@ -36,16 +36,7 @@ export default function Hero() {
 
       {/* Content */}
       <motion.div className={styles.content} style={{ y, opacity }}>
-        {/* Badge */}
-        <motion.div
-          className={styles.badge}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-        >
-          <span className={styles.dot} />
-          Marca Personal 2025
-        </motion.div>
+
 
         {/* Headline */}
         <motion.h1
