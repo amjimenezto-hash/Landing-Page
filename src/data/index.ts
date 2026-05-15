@@ -2,6 +2,7 @@ import type { Service, Project, Testimonial, NavLink, Stat, Social } from './typ
 import { Code2, Layers, Zap, Globe, Twitter, Github, Linkedin, Mail } from 'lucide-react'
 import talentoImg from '@/assets/talento.jpg'
 import culturaImg from '@/assets/cultura.jpg'
+import ideasImg from '@/assets/ideas.jpg'
 
 export const navLinks: NavLink[] = [
   { label: 'Inicio',    href: '#inicio' },
@@ -38,6 +39,7 @@ export const services: Service[] = [
   {
     icon: Zap,
     title: 'Transformación de Ideas',
+    image: ideasImg,
     description:
       'Conversión de conceptos organizacionales complejos en experiencias prácticas y memorables para los colaboradores.',
     tags: ['Innovación', 'Experiencia', 'Impacto'],
