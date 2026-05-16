@@ -15,6 +15,7 @@ export interface Service {
   title: string
   description: string
   tags: string[]
+  image?: string
 }
 
 export interface Project {
